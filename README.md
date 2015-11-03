@@ -5,6 +5,7 @@ top level repo for shape complete project
 The following is the procedure to set up the workspace for the Shape Completion project.
 
 1. Clone the ShapeCompletion3D/shape_completion repository into your workspace. The github link to the repository is: https://github.com/ShapeCompletion3D/shape_completion.git
+
   ```
   git clone https://github.com/ShapeCompletion3D/shape_completion.git
   cd shape_completion/
