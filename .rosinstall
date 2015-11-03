@@ -5,4 +5,11 @@
 - git: {local-name: utils/keras, uri: 'https://github.com/ShapeCompletion3D/keras.git', version: master}
 - git: {local-name: utils/binvox-rw-py, uri: 'https://github.com/ShapeCompletion3D/binvox-rw-py.git', version: master}
 - git: {local-name: utils/pycollada, uri: 'https://github.com/pycollada/pycollada.git', version: master}
-- git: {local-name: utils/pycollada, uri: 'https://github.com/pmneila/PyMCubes.git', version: master}
+- git: {local-name: utils/PyMCubes, uri: 'https://github.com/pmneila/PyMCubes.git', version: master}
+
+# Runtime Repos
+- git: {local-name: runtime_ws/src/perception_msgs, uri: 'https://github.com/CURG/perception_msgs.git', version: master}
+- git: {local-name: runtime_ws/src/relationship_visualizer, uri: 'https://github.com/CURG/relationship_visualizer.git', version: master}
+- git: {local-name: runtime_ws/src/scene_segmenter, uri: 'https://github.com/CURG/scene_segmenter.git', version: master}
+- git: {local-name: runtime_ws/src/segment_saver, uri: 'https://github.com/ShapeCompletion3D/segment_saver.git', version: master}
+- git: {local-name: runtime_ws/src/runtime_launch, uri: 'https://github.com/ShapeCompletion3D/runtime_launch.git', version: master}
