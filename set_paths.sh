@@ -2,4 +2,4 @@
 # Setting paths for Shape Completion Libraries
 
 export HOMEPATH=$PWD
-export PYTHONPATH=$HOMEPATH/shape_completion_experiments:$HOMEPATH/binvox-rw-py:$HOMEPATH/keras:$PYTHONPATH
+export PYTHONPATH=$HOMEPATH/train/shape_completion_experiments:$HOMEPATH/utils/binvox-rw-py:$HOMEPATH/utils/keras:$HOMEPATH/utils/PyMCubes:$PYTHONPATH

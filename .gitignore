@@ -1,5 +1,5 @@
-PyMCubes/
-binvox-rw-py/
-keras/
-pycollada/
-shape_completion_experiments/
+utils/PyMCubes/
+utils/binvox-rw-py/
+utils/keras/
+utils/pycollada/
+train/shape_completion_experiments/
