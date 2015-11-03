@@ -1,0 +1,8 @@
+#Repositories related to generation of training data
+- git: {local-name: train/shape_completion_experiments, uri: 'git@github.com:ShapeCompletion3D/shape_completion_experiments.git'}
+
+# util repos
+- git: {local-name: utils/keras, uri: 'git@github.com:ShapeCompletion3D/keras.git'}
+- git: {local-name: utils/binvox-rw-py, uri: 'git@github.com:ShapeCompletion3D/binvox-rw-py.git'}
+- git: {local-name: utils/pycollada, uri: 'git@github.com:pycollada/pycollada.git'}
+- git: {local-name: utils/pycollada, uri: 'git@github.com:pmneila/PyMCubes.git'}
