@@ -6,6 +6,7 @@ python setup.py build
 python setup.py install --user
 cd ..
 cd PyMCubes
+git checkout working
 python setup.py build
 python setup.py install --user
 cd ..
