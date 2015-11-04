@@ -5,7 +5,7 @@
 - git: {local-name: utils/keras, uri: 'https://github.com/ShapeCompletion3D/keras.git', version: master}
 - git: {local-name: utils/binvox-rw-py, uri: 'https://github.com/ShapeCompletion3D/binvox-rw-py.git', version: master}
 - git: {local-name: utils/pycollada, uri: 'https://github.com/pycollada/pycollada.git', version: master}
-- git: {local-name: utils/PyMCubes, uri: 'https://github.com/pmneila/PyMCubes.git', version: master}
+- git: {local-name: utils/PyMCubes, uri: 'https://github.com/ShapeCompletion3D/PyMCubes.git', version: working}
 
 # Runtime Repos
 - git: {local-name: runtime_ws/src/perception_msgs, uri: 'https://github.com/CURG/perception_msgs.git', version: master}
