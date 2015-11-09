@@ -11,10 +11,12 @@ The following is the procedure to set up the workspace for the Shape Completion 
   cd shape_completion/
   ```
 2. Run wstool update. This will clone all the other dependent repositories listed in the .rosinstall file into that workspace
+  
   ```
   wstool update
   ```
 3. Run the installation script ( install.sh ) from the repository. The script will setup all the dependent repositories
+  
   ```
   bash install.sh
   ```
@@ -23,4 +25,11 @@ The following is the procedure to set up the workspace for the Shape Completion 
   ```
   source set_paths.sh
   ```
-5. All the data we have including the YCB dataset would be stored in /srv/data/
+5. On your home directory create a ```.theano_rc``` file with the following contents:
+
+  ```
+  [global]
+  floatX = float32
+  device = gpu
+  ```
+6. All the data we have including the YCB dataset would be stored in /srv/data/
