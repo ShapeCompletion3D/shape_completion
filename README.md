@@ -1,5 +1,5 @@
-# shape_completion
-top level repo for shape complete project
+# Shape Completion
+Top level repo for shape complete project
 
 ## Setup
 The following is the procedure to set up the workspace for the Shape Completion project.
