@@ -1,15 +1,16 @@
 # Shape Completion
 Top level repo for shape complete project.
 
+Looking for shape_completion_experiments? It's now here: https://github.com/CURG/shape_completion_experiments
+
 ## Dependencies
+### Should be manually installed before setup:
 - Theano
 - H5py
 - ROS
-- https://github.com/CURG/shape_completion_experiments
-- https://github.com/ShapeCompletion3D/PyMCubes
-- https://github.com/ShapeCompletion3D/binvox-rw-py
-- https://github.com/ShapeCompletion3D/keras
-- https://github.com/pycollada/pycollada
+
+### Automatically installed by wstool during setup:
+- See the ```.rosinstall``` file for a list of these.
 
 ## Setup
 The following is the procedure to set up the workspace for the Shape Completion project.
