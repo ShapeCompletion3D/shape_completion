@@ -5,6 +5,11 @@ Top level repo for shape complete project.
 - Theano
 - H5py
 - ROS
+- https://github.com/CURG/shape_completion_experiments
+- https://github.com/ShapeCompletion3D/PyMCubes
+- https://github.com/ShapeCompletion3D/binvox-rw-py
+- https://github.com/ShapeCompletion3D/keras
+- https://github.com/pycollada/pycollada
 
 ## Setup
 The following is the procedure to set up the workspace for the Shape Completion project.
