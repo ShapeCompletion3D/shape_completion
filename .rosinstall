@@ -13,3 +13,6 @@
 - git: {local-name: runtime_ws/src/scene_segmenter, uri: 'https://github.com/CURG/scene_segmenter.git', version: master}
 - git: {local-name: runtime_ws/src/segment_saver, uri: 'https://github.com/ShapeCompletion3D/segment_saver.git', version: master}
 - git: {local-name: runtime_ws/src/runtime_launch, uri: 'https://github.com/ShapeCompletion3D/runtime_launch.git', version: master}
+- git: {local-name: runtime_ws/src/graspit_shape_completion, uri: 'https://github.com/ShapeCompletion3D/graspit_shape_completion.git', version: master}
+- git: {local-name: runtime_ws/src/graspit-ros, uri: 'https://github.com/graspit-simulator/graspit-ros.git', version: master}
+- git: {local-name: runtime_ws/src/mesh_builder, uri: 'https://github.com/ShapeCompletion3D/mesh_builder.git', version: master}

@@ -1,5 +1,10 @@
-# shape_completion
-top level repo for shape complete project
+# Shape Completion
+Top level repo for shape complete project.
+
+## Dependencies
+- Theano
+- H5py
+- ROS
 
 ## Setup
 The following is the procedure to set up the workspace for the Shape Completion project.
@@ -20,16 +25,28 @@ The following is the procedure to set up the workspace for the Shape Completion 
   ```
   bash install.sh
   ```
-4. You will need to run the script called set_paths.sh before you run the code in the shape_completion_experiments repository
-  
-  ```
-  source set_paths.sh
-  ```
-5. On your home directory create a ```.theano_rc``` file with the following contents:
+4. On your home directory create a ```.theano_rc``` file with the following contents:
 
   ```
   [global]
   floatX = float32
   device = gpu
   ```
-6. All the data we have including the YCB dataset would be stored in /srv/data/
+5. All the data we have, including the YCB dataset would be stored in /srv/data/
+
+## Running an experiment
+1. Run set_paths.sh to add the necessary directories to your PYTHONPATH (you might want to set up your computer to run this every time a new terminal window opens)
+  
+  ```
+  source set_paths.sh
+  ```
+2. Go to the experiments folder inside the shape_completion_experiments repository
+
+  ```
+  cd train/shape_completion_experiments/experiments/
+  ```
+3. Run an experiment script. For example, reconstruction_3d_ycb.py, which is the shape completion experiment that uses the YCB dataset with an input and output size of 30x30x30:
+
+  ```
+  python reconstruction_3d_ycb.py
+  ```
