@@ -1,5 +1,5 @@
 #Repositories related to generation of training data
-- git: {local-name: train/shape_completion_experiments, uri: 'https://github.com/ShapeCompletion3D/shape_completion_experiments.git', version: master}
+- git: {local-name: train/shape_completion_experiments, uri: 'https://github.com/CURG/shape_completion_experiments.git', version: master}
 
 # util repos
 - git: {local-name: utils/keras, uri: 'https://github.com/ShapeCompletion3D/keras.git', version: master}
