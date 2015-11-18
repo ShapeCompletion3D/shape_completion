@@ -15,7 +15,7 @@ Looking for shape_completion_experiments? It's now here: https://github.com/CURG
 ## Setup
 The following is the procedure to set up the workspace for the Shape Completion project.
 
-1. Clone the ShapeCompletion3D/shape_completion repository into your workspace. The github link to the repository is: https://github.com/ShapeCompletion3D/shape_completion.git
+1. Clone this repository into your workspace.
 
   ```
   git clone https://github.com/ShapeCompletion3D/shape_completion.git
@@ -26,7 +26,7 @@ The following is the procedure to set up the workspace for the Shape Completion 
   ```
   wstool update
   ```
-3. Run the installation script ( install.sh ) from the repository. The script will setup all the dependent repositories
+3. Run the installation script ( install.sh ) from the repository. The script will set up all the dependent repositories
   
   ```
   bash install.sh
@@ -38,7 +38,7 @@ The following is the procedure to set up the workspace for the Shape Completion 
   floatX = float32
   device = gpu
   ```
-5. All the data we have, including the YCB dataset would be stored in /srv/data/
+5. Verify that all the data we have, including the YCB dataset, is stored in /srv/data/
 
 ## Running an experiment
 1. Run set_paths.sh to add the necessary directories to your PYTHONPATH (you might want to set up your computer to run this every time a new terminal window opens)
