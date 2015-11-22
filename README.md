@@ -15,30 +15,31 @@ Looking for shape_completion_experiments? It's now here: https://github.com/CURG
 ## Setup
 The following is the procedure to set up the workspace for the Shape Completion project.
 
-1. Clone this repository into your workspace.
+1. Install the dependencies mentioned above under the subsection "Should be manually installed before setup."
+2. Clone this repository into your workspace.
 
   ```
   git clone https://github.com/ShapeCompletion3D/shape_completion.git
   cd shape_completion/
   ```
-2. Run wstool update. This will clone all the other dependent repositories listed in the .rosinstall file into that workspace
+3. Run wstool update. This will clone all the other dependent repositories listed in the .rosinstall file into that workspace
   
   ```
   wstool update
   ```
-3. Run the installation script ( install.sh ) from the repository. The script will set up all the dependent repositories
+4. Run the installation script ( install.sh ) from the repository. The script will set up all the dependent repositories
   
   ```
   bash install.sh
   ```
-4. On your home directory create a ```.theano_rc``` file with the following contents:
+5. On your home directory create a ```.theano_rc``` file with the following contents:
 
   ```
   [global]
   floatX = float32
   device = gpu
   ```
-5. Verify that all the data we have, including the YCB dataset, is stored in /srv/data/
+6. Verify that all the data we have, including the YCB dataset, is stored in /srv/data/
 
 ## Running an experiment
 1. Run set_paths.sh to add the necessary directories to your PYTHONPATH (you might want to set up your computer to run this every time a new terminal window opens)
