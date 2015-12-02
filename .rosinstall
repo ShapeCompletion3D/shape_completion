@@ -1,9 +1,9 @@
 #Repositories related to generation of training data
-- git: {local-name: train/shape_completion_experiments, uri: 'https://github.com/ShapeCompletion3D/shape_completion_experiments.git', version: master}
+- git: {local-name: train/shape_completion_experiments, uri: 'https://github.com/CURG/shape_completion_experiments.git', version: master}
 
 # util repos
 - git: {local-name: utils/keras, uri: 'https://github.com/ShapeCompletion3D/keras.git', version: master}
-- git: {local-name: utils/binvox-rw-py, uri: 'https://github.com/ShapeCompletion3D/binvox-rw-py.git', version: master}
+- git: {local-name: utils/binvox-rw-py, uri: 'https://github.com/ShapeCompletion3D/binvox-rw-py.git', version: public}
 - git: {local-name: utils/pycollada, uri: 'https://github.com/pycollada/pycollada.git', version: master}
 - git: {local-name: utils/PyMCubes, uri: 'https://github.com/ShapeCompletion3D/PyMCubes.git', version: working}
 
@@ -13,3 +13,6 @@
 - git: {local-name: runtime_ws/src/scene_segmenter, uri: 'https://github.com/CURG/scene_segmenter.git', version: master}
 - git: {local-name: runtime_ws/src/segment_saver, uri: 'https://github.com/ShapeCompletion3D/segment_saver.git', version: master}
 - git: {local-name: runtime_ws/src/runtime_launch, uri: 'https://github.com/ShapeCompletion3D/runtime_launch.git', version: master}
+- git: {local-name: runtime_ws/src/graspit_shape_completion, uri: 'https://github.com/ShapeCompletion3D/graspit_shape_completion.git', version: master}
+- git: {local-name: runtime_ws/src/graspit-ros, uri: 'https://github.com/graspit-simulator/graspit-ros.git', version: master}
+- git: {local-name: runtime_ws/src/mesh_builder, uri: 'https://github.com/ShapeCompletion3D/mesh_builder.git', version: master}
