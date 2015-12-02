@@ -50,7 +50,7 @@ The following is the procedure to set up the workspace for the Shape Completion 
 8. Verify that all the datasets we have, including the YCB dataset, is stored in /srv/data/
 
 ## Running an experiment
-1. Run set_paths.sh to add the necessary directories to your PYTHONPATH (you might want to set up your computer to run this every time a new terminal window opens)
+1. Run set_paths.sh to add the necessary directories to your PYTHONPATH.
   
   ```
   source set_paths.sh
