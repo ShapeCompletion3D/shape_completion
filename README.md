@@ -46,7 +46,8 @@ The following is the procedure to set up the workspace for the Shape Completion 
   export LD_LIBRARY_PATH=${CUDA_HOME}/lib64:$LD_LIBRARY_PATH
   export PATH=${CUDA_HOME}/bin:${PATH}
   ```
-7. Verify that all the data we have, including the YCB dataset, is stored in /srv/data/
+7. Start a new terminal window so that the ```.bash_rc``` changes take effect.
+8. Verify that all the data we have, including the YCB dataset, is stored in /srv/data/
 
 ## Running an experiment
 1. Run set_paths.sh to add the necessary directories to your PYTHONPATH (you might want to set up your computer to run this every time a new terminal window opens)
